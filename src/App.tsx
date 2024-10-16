@@ -31,6 +31,9 @@ const App = () => {
         <button onClick={() => handleClick(5)}>
           Layout 5 (Low Floor AC/NON AC Seater 2+2 )
         </button>
+        <button onClick={() => handleClick(6)}>
+          Layout 6 (Super Fast Non AC Seater (2+3) )
+        </button>
         <h1>Layout {num}</h1>
         <SeatMap layout={data} />
       </>

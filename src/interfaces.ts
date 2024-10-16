@@ -3,9 +3,9 @@
 export interface ISeat {
   row: number;
   seat_name: string;
-  quota: 'normal' | 'ladies';
+  quota: 'normal' | 'ladies' | 'gents';
   status: 'open' | 'reserved' | 'blocked';
-  position: 'window' | 'aisle';
+  position: 'window' | 'aisle' | 'middle';
   type: 'normal' | 'pushback' | 'sleeper';
   seat_price: number;
   isActive: boolean;
@@ -31,5 +31,6 @@ export interface IBusLayout {
 export interface ISvgProps {
   className: string;
   fill?: string;
+  seatName: string;
   // onClick: MouseEventHandler<SVGElement>;
 }

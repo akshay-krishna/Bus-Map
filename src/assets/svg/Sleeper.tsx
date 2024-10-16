@@ -7,7 +7,7 @@ const Sleeper = (props: ISvgProps) => {
   const handleClick = () => {
     setFillColor((prevColor) => (prevColor === 'cyan' ? 'none' : 'cyan'));
   };
-  
+
   return (
     <svg
       width="60"
@@ -34,6 +34,16 @@ const Sleeper = (props: ISvgProps) => {
         d="M51.2222 38.3086C51.2222 39.6468 50.1111 40.7621 48.7778 40.7621H47.0556C45.7222 40.7621 44.6111 39.6468 44.6111 38.3086V21.6915C44.6111 20.3532 45.7222 19.2379 47.0556 19.2379H48.7778C50.1111 19.2379 51.2222 20.3532 51.2222 21.6915V38.3086Z"
         fill="white"
       />
+      <text
+        x="30"
+        y="35"
+        textAnchor="middle"
+        fontSize="10"
+        fill="black"
+        fontWeight="bold"
+      >
+        {props.seatName}
+      </text>
     </svg>
   );
 };

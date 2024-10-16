@@ -38,6 +38,16 @@ const Seater = (props: ISvgProps) => {
         d="M23.1944 26.7072H11.3611C10.5278 26.7072 9.86111 26.0277 9.86111 25.2067C9.86111 24.3856 10.5278 23.7061 11.3611 23.7061H22.8889C22.9444 24.7254 23.6667 25.5464 24.6111 25.8012C24.3611 26.3109 23.8333 26.7072 23.1944 26.7072Z"
         fill={fillColor}
       />
+      <text
+        x="13"
+        y="18"
+        textAnchor="middle"
+        fontSize="10"
+        fill="black"
+        fontWeight="bold"
+      >
+        {props.seatName}
+      </text>
     </svg>
   );
 };

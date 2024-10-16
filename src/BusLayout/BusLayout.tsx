@@ -11,10 +11,12 @@ const Seat = ({ seat }: { seat: ISeat }) => {
   return seat.type == 'sleeper' ? (
     <Sleeper
       className={`seater-sleeper ${seat.isActive ? 'active' : 'inactive'}`}
+      seatName={seat.seat_name}
     />
   ) : (
     <Seater
       className={`seater-sleeper ${seat.isActive ? 'active' : 'inactive'}`}
+      seatName={seat.seat_name}
     />
   );
 };
@@ -68,7 +70,7 @@ const Deck = ({ deck, deckName }: { deck: IDeck; deckName: string }) => {
 
 const SeatMap = ({ layout }: ISeatMapProps) => {
   return (
-    <div>
+    <div style={{ width: '600px' }}>
       <Deck deck={layout.lower_deck} deckName="Lower Deck" />
       {layout.upper_deck && (
         <Deck deck={layout.upper_deck} deckName="Upper Deck" />
