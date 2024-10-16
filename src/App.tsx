@@ -27,6 +27,7 @@ const App = () => {
         <button onClick={() => handleClick(1)}>Layout 1</button>
         <button onClick={() => handleClick(2)}>Layout 2</button>
         <button onClick={() => handleClick(3)}>Layout 3</button>
+        <button onClick={() => handleClick(4)}>Layout 4</button>
         <h1>Layout {num}</h1>
         <SeatMap layout={data} />
       </>
