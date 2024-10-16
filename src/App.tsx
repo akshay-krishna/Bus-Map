@@ -12,7 +12,7 @@ const App = () => {
 
   useEffect(() => {
     const getData = () => {
-      fetch(`src/layout${num}.json`)
+      fetch(`/layout${num}.json`)
         .then(function (response) {
           return response.json();
         })
