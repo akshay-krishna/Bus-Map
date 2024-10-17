@@ -12,6 +12,7 @@ export interface ISeat {
 }
 
 export interface IColumn {
+  type?: string;
   alignment: ISeat[];
 }
 

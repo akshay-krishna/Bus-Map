@@ -38,7 +38,9 @@ const Column = ({
         return seat ? (
           <Seat key={index} seat={seat} />
         ) : (
-          <span className="emptySpace"></span>
+          (column.type == 'normal' || column.type == undefined) && (
+            <span className="emptySpace"></span>
+          )
         );
       })}
     </div>
