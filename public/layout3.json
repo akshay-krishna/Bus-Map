@@ -1,24 +1,15 @@
 {
-  "total_seats": 45,
+  "total_seats": 39,
   "lower_deck": {
-    "total_rows": 4,
-    "total_columns": 6,
+    "total_rows": 10,
+    "total_columns": 4,
     "columns": {
       "1": {
+        "type": "normal",
         "alignment": [
           {
-            "row": 1,
-            "seat_name": "L1",
-            "quota": "ladies",
-            "status": "reserved",
-            "position": "window",
-            "type": "pushback",
-            "seat_price": 150.0,
-            "isActive": true
-          },
-          {
             "row": 2,
-            "seat_name": "L2",
+            "seat_name": "L1",
             "quota": "normal",
             "status": "open",
             "position": "window",
@@ -28,7 +19,7 @@
           },
           {
             "row": 3,
-            "seat_name": "L3",
+            "seat_name": "L2",
             "quota": "normal",
             "status": "open",
             "position": "window",
@@ -38,7 +29,67 @@
           },
           {
             "row": 4,
+            "seat_name": "L3",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "pushback",
+            "seat_price": 150.0,
+            "isActive": true
+          },
+          {
+            "row": 5,
             "seat_name": "L4",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "pushback",
+            "seat_price": 150.0,
+            "isActive": true
+          },
+          {
+            "row": 6,
+            "seat_name": "L5",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "pushback",
+            "seat_price": 150.0,
+            "isActive": true
+          },
+          {
+            "row": 7,
+            "seat_name": "L6",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "pushback",
+            "seat_price": 150.0,
+            "isActive": true
+          },
+          {
+            "row": 8,
+            "seat_name": "L7",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "pushback",
+            "seat_price": 150.0,
+            "isActive": true
+          },
+          {
+            "row": 9,
+            "seat_name": "L8",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "pushback",
+            "seat_price": 150.0,
+            "isActive": true
+          },
+          {
+            "row": 10,
+            "seat_name": "L9",
             "quota": "normal",
             "status": "open",
             "position": "window",
@@ -49,61 +100,8 @@
         ]
       },
       "2": {
+        "type": "normal",
         "alignment": [
-          {
-            "row": 1,
-            "seat_name": "L5",
-            "quota": "normal",
-            "status": "open",
-            "position": "aisle",
-            "type": "normal",
-            "seat_price": 100.0,
-            "isActive": true
-          },
-          {
-            "row": 2,
-            "seat_name": "L6",
-            "quota": "normal",
-            "status": "open",
-            "position": "aisle",
-            "type": "normal",
-            "seat_price": 100.0,
-            "isActive": true
-          },
-          {
-            "row": 3,
-            "seat_name": "L7",
-            "quota": "normal",
-            "status": "open",
-            "position": "aisle",
-            "type": "normal",
-            "seat_price": 100.0,
-            "isActive": true
-          },
-          {
-            "row": 4,
-            "seat_name": "L8",
-            "quota": "normal",
-            "status": "open",
-            "position": "aisle",
-            "type": "normal",
-            "seat_price": 100.0,
-            "isActive": true
-          }
-        ]
-      },
-      "3": {
-        "alignment": [
-          {
-            "row": 1,
-            "seat_name": "L9",
-            "quota": "normal",
-            "status": "open",
-            "position": "aisle",
-            "type": "normal",
-            "seat_price": 100.0,
-            "isActive": true
-          },
           {
             "row": 2,
             "seat_name": "L10",
@@ -133,37 +131,19 @@
             "type": "normal",
             "seat_price": 100.0,
             "isActive": true
-          }
-        ]
-      },
-      "4": {
-        "alignment": [
+          },
           {
-            "row": 4,
-            "seat_name": "L22",
-            "quota": "normal",
-            "status": "open",
-            "position": "aisle",
-            "type": "normal",
-            "seat_price": 100.0,
-            "isActive": true
-          }
-        ]
-      },
-      "5": {
-        "alignment": [
-          {
-            "row": 1,
+            "row": 5,
             "seat_name": "L13",
             "quota": "normal",
             "status": "open",
             "position": "aisle",
             "type": "normal",
             "seat_price": 100.0,
-            "isActive": false
+            "isActive": true
           },
           {
-            "row": 2,
+            "row": 6,
             "seat_name": "L14",
             "quota": "normal",
             "status": "open",
@@ -173,7 +153,7 @@
             "isActive": true
           },
           {
-            "row": 3,
+            "row": 7,
             "seat_name": "L15",
             "quota": "normal",
             "status": "open",
@@ -183,7 +163,7 @@
             "isActive": true
           },
           {
-            "row": 4,
+            "row": 8,
             "seat_name": "L16",
             "quota": "normal",
             "status": "open",
@@ -191,13 +171,9 @@
             "type": "normal",
             "seat_price": 100.0,
             "isActive": true
-          }
-        ]
-      },
-      "6": {
-        "alignment": [
+          },
           {
-            "row": 1,
+            "row": 9,
             "seat_name": "L17",
             "quota": "normal",
             "status": "open",
@@ -207,7 +183,7 @@
             "isActive": true
           },
           {
-            "row": 2,
+            "row": 10,
             "seat_name": "L18",
             "quota": "normal",
             "status": "open",
@@ -215,9 +191,14 @@
             "type": "normal",
             "seat_price": 100.0,
             "isActive": true
-          },
+          }
+        ]
+      },
+      "3": {
+        "type": "normal",
+        "alignment": [
           {
-            "row": 3,
+            "row": 10,
             "seat_name": "L19",
             "quota": "normal",
             "status": "open",
@@ -225,14 +206,59 @@
             "type": "normal",
             "seat_price": 100.0,
             "isActive": true
-          },
+          }
+        ]
+      },
+      "4": {
+        "type": "sleeper",
+        "alignment": [
           {
-            "row": 4,
+            "row": 1,
             "seat_name": "L20",
             "quota": "normal",
             "status": "open",
             "position": "aisle",
-            "type": "normal",
+            "type": "sleeper",
+            "seat_price": 100.0,
+            "isActive": true
+          },
+          {
+            "row": 2,
+            "seat_name": "L21",
+            "quota": "normal",
+            "status": "open",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 100.0,
+            "isActive": true
+          },
+          {
+            "row": 3,
+            "seat_name": "L22",
+            "quota": "normal",
+            "status": "open",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 100.0,
+            "isActive": true
+          },
+          {
+            "row": 4,
+            "seat_name": "L23",
+            "quota": "normal",
+            "status": "open",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 100.0,
+            "isActive": true
+          },
+          {
+            "row": 5,
+            "seat_name": "L24",
+            "quota": "normal",
+            "status": "open",
+            "position": "aisle",
+            "type": "sleeper",
             "seat_price": 100.0,
             "isActive": true
           }
@@ -242,10 +268,11 @@
   },
 
   "upper_deck": {
-    "total_rows": 4,
+    "total_rows": 5,
     "total_columns": 4,
     "columns": {
       "1": {
+        "type": "sleeper",
         "alignment": [
           {
             "row": 1,
@@ -270,7 +297,7 @@
           {
             "row": 3,
             "seat_name": "U3",
-            "quota": "ladies",
+            "quota": "normal",
             "status": "open",
             "position": "window",
             "type": "sleeper",
@@ -286,14 +313,25 @@
             "type": "sleeper",
             "seat_price": 180.0,
             "isActive": true
+          },
+          {
+            "row": 5,
+            "seat_name": "U5",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "sleeper",
+            "seat_price": 180.0,
+            "isActive": true
           }
         ]
       },
       "2": {
+        "type": "sleeper",
         "alignment": [
           {
             "row": 1,
-            "seat_name": "U5",
+            "seat_name": "U6",
             "quota": "normal",
             "status": "blocked",
             "position": "aisle",
@@ -303,16 +341,6 @@
           },
           {
             "row": 2,
-            "seat_name": "U6",
-            "quota": "normal",
-            "status": "open",
-            "position": "aisle",
-            "type": "sleeper",
-            "seat_price": 180.0,
-            "isActive": true
-          },
-          {
-            "row": 3,
             "seat_name": "U7",
             "quota": "normal",
             "status": "open",
@@ -322,8 +350,28 @@
             "isActive": true
           },
           {
-            "row": 4,
+            "row": 3,
             "seat_name": "U8",
+            "quota": "normal",
+            "status": "open",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 180.0,
+            "isActive": true
+          },
+          {
+            "row": 4,
+            "seat_name": "U9",
+            "quota": "normal",
+            "status": "open",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 180.0,
+            "isActive": true
+          },
+          {
+            "row": 5,
+            "seat_name": "U10",
             "quota": "normal",
             "status": "open",
             "position": "aisle",
@@ -335,29 +383,10 @@
       },
       "3": null,
       "4": {
+        "type": "sleeper",
         "alignment": [
           {
             "row": 1,
-            "seat_name": "U9",
-            "quota": "normal",
-            "status": "blocked",
-            "position": "aisle",
-            "type": "sleeper",
-            "seat_price": 250.0,
-            "isActive": true
-          },
-          {
-            "row": 2,
-            "seat_name": "U10",
-            "quota": "normal",
-            "status": "blocked",
-            "position": "aisle",
-            "type": "sleeper",
-            "seat_price": 250.0,
-            "isActive": true
-          },
-          {
-            "row": 3,
             "seat_name": "U11",
             "quota": "normal",
             "status": "blocked",
@@ -367,8 +396,38 @@
             "isActive": true
           },
           {
-            "row": 4,
+            "row": 2,
             "seat_name": "U12",
+            "quota": "normal",
+            "status": "blocked",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 250.0,
+            "isActive": true
+          },
+          {
+            "row": 3,
+            "seat_name": "U13",
+            "quota": "normal",
+            "status": "blocked",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 250.0,
+            "isActive": true
+          },
+          {
+            "row": 4,
+            "seat_name": "U14",
+            "quota": "normal",
+            "status": "blocked",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 250.0,
+            "isActive": true
+          },
+          {
+            "row": 5,
+            "seat_name": "U15",
             "quota": "normal",
             "status": "blocked",
             "position": "aisle",
