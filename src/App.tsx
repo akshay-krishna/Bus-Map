@@ -40,6 +40,9 @@ const App = () => {
         <button onClick={() => handleClick(8)}>
           Layout 8 (AC MULTI AXLE )
         </button>
+        <button onClick={() => handleClick(9)}>
+          Layout 9 Swift Deluxe Non AC Air Bus (2+2)
+        </button>
         <h1>Layout {num}</h1>
         <SeatMap layout={data} />
       </>
