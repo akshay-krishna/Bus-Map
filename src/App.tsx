@@ -43,6 +43,9 @@ const App = () => {
         <button onClick={() => handleClick(9)}>
           Layout 9 Swift Deluxe Non AC Air Bus (2+2)
         </button>
+        <button onClick={() => handleClick(10)}>
+          Layout 10 Super Express Non AC Seater Air Bus (2+2)
+        </button>
         <h1>Layout {num}</h1>
         <SeatMap layout={data} />
       </>
