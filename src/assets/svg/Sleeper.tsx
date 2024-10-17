@@ -5,7 +5,7 @@ const Sleeper = (props: ISvgProps) => {
   const [fillColor, setFillColor] = useState<string>(props.fill || 'none');
 
   const handleClick = () => {
-    setFillColor((prevColor) => (prevColor === 'cyan' ? 'none' : 'cyan'));
+    setFillColor((prevColor) => (prevColor === '#6d88e3' ? 'none' : '#6d88e3'));
   };
 
   return (
