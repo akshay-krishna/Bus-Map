@@ -9,38 +9,20 @@ interface ISeatMapProps {
 
 const Seat = ({ seat }: { seat: ISeat }) => {
   return seat.type == 'sleeper' ? (
-    <Sleeper
-      className={`seater-sleeper ${seat.isActive ? 'active' : 'inactive'}`}
-      seatName={seat.seat_name}
-    />
+    <Sleeper className={`seater-sleeper`} seatName={seat.seat_name} />
   ) : (
-    <Seater
-      className={`seater-sleeper ${seat.isActive ? 'active' : 'inactive'}`}
-      seatName={seat.seat_name}
-    />
+    <Seater className={`seater-sleeper`} seatName={seat.seat_name} />
   );
 };
 
-const Column = ({
-  column,
-  totalRows,
-}: {
-  column: IColumn;
-  totalRows: number;
-}) => {
-  const seatsInColumn = new Array(totalRows).fill(null);
-  column.alignment.forEach((seat) => {
-    seatsInColumn[seat.row - 1] = seat;
-  });
+const Column = ({ column }: { column: IColumn }) => {
   return (
     <div className="column">
-      {seatsInColumn.map((seat, index) => {
-        return seat ? (
+      {column.alignment.map((seat, index) => {
+        return seat && seat.isActive ? (
           <Seat key={index} seat={seat} />
         ) : (
-          (column.type == 'normal' || column.type == undefined) && (
-            <span className="emptySpace"></span>
-          )
+          <span className="emptySpace"></span>
         );
       })}
     </div>
@@ -61,7 +43,6 @@ const Deck = ({ deck, deckName }: { deck: IDeck; deckName: string }) => {
             <Column
               key={colKey}
               column={deck.columns[colKey]}
-              totalRows={deck.total_rows}
             />
           );
         })}

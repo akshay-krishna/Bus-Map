@@ -106,6 +106,7 @@
             "seat_price": 150.0,
             "isActive": true
           },
+          { "row": 11, "isActive": false },
           {
             "row": 12,
             "seat_name": "L11",
@@ -220,6 +221,7 @@
             "seat_price": 100.0,
             "isActive": true
           },
+          { "row": 11, "isActive": false },
           {
             "row": 12,
             "seat_name": "L22",
@@ -334,6 +336,7 @@
             "seat_price": 100.0,
             "isActive": true
           },
+          { "row": 11, "isActive": false },
           {
             "row": 12,
             "seat_name": "L33",
@@ -348,6 +351,17 @@
       },
       "4": {
         "alignment": [
+          { "row": 1, "isActive": false },
+          { "row": 2, "isActive": false },
+          { "row": 3, "isActive": false },
+          { "row": 4, "isActive": false },
+          { "row": 5, "isActive": false },
+          { "row": 6, "isActive": false },
+          { "row": 7, "isActive": false },
+          { "row": 8, "isActive": false },
+          { "row": 9, "isActive": false },
+          { "row": 10, "isActive": false },
+          { "row": 11, "isActive": false },
           {
             "row": 12,
             "seat_name": "L34",
@@ -362,6 +376,7 @@
       },
       "5": {
         "alignment": [
+          { "row": 1, "isActive": false },
           {
             "row": 2,
             "seat_name": "L35",
@@ -442,6 +457,7 @@
             "seat_price": 100.0,
             "isActive": true
           },
+          { "row": 10, "isActive": false },
           {
             "row": 11,
             "seat_name": "L43",
@@ -556,6 +572,7 @@
             "seat_price": 100.0,
             "isActive": true
           },
+          { "row": 10, "isActive": false },
           {
             "row": 11,
             "seat_name": "L54",

@@ -96,6 +96,7 @@
             "seat_price": 150.0,
             "isActive": true
           },
+          { "row": 10, "isActive": false },
           {
             "row": 11,
             "seat_name": "L10",
@@ -200,6 +201,7 @@
             "seat_price": 100.0,
             "isActive": true
           },
+          { "row": 10, "isActive": false },
           {
             "row": 11,
             "seat_name": "L20",
@@ -214,6 +216,16 @@
       },
       "3": {
         "alignment": [
+          { "row": 1, "isActive": false },
+          { "row": 2, "isActive": false },
+          { "row": 3, "isActive": false },
+          { "row": 4, "isActive": false },
+          { "row": 5, "isActive": false },
+          { "row": 6, "isActive": false },
+          { "row": 7, "isActive": false },
+          { "row": 8, "isActive": false },
+          { "row": 9, "isActive": false },
+          { "row": 10, "isActive": false },
           {
             "row": 11,
             "seat_name": "L21",
@@ -228,6 +240,7 @@
       },
       "4": {
         "alignment": [
+          { "row": 1, "isActive": false },
           {
             "row": 2,
             "seat_name": "L22",

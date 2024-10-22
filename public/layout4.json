@@ -1,11 +1,12 @@
 {
-  "total_seats": 45,
+  "total_seats": 23,
   "lower_deck": {
     "total_rows": 4,
     "total_columns": 4,
     "columns": {
       "1": {
         "alignment": [
+          { "row": 1, "isActive": false },
           {
             "row": 2,
             "seat_name": "L1",
@@ -40,6 +41,7 @@
       },
       "2": {
         "alignment": [
+          { "row": 1, "isActive": false },
           {
             "row": 2,
             "seat_name": "L4",
@@ -74,9 +76,12 @@
       },
       "3": {
         "alignment": [
+          { "row": 1, "isActive": false },
+          { "row": 2, "isActive": false },
+          { "row": 3, "isActive": false },
           {
             "row": 4,
-            "seat_name": "L99",
+            "seat_name": "L7",
             "quota": "normal",
             "status": "open",
             "position": "aisle",
@@ -90,16 +95,6 @@
         "alignment": [
           {
             "row": 1,
-            "seat_name": "L7",
-            "quota": "normal",
-            "status": "open",
-            "position": "window",
-            "type": "sleeper",
-            "seat_price": 100.0,
-            "isActive": true
-          },
-          {
-            "row": 2,
             "seat_name": "L8",
             "quota": "normal",
             "status": "open",
@@ -109,7 +104,7 @@
             "isActive": true
           },
           {
-            "row": 3,
+            "row": 2,
             "seat_name": "L9",
             "quota": "normal",
             "status": "open",
@@ -119,8 +114,18 @@
             "isActive": true
           },
           {
-            "row": 4,
+            "row": 3,
             "seat_name": "L10",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "sleeper",
+            "seat_price": 100.0,
+            "isActive": true
+          },
+          {
+            "row": 4,
+            "seat_name": "L11",
             "quota": "normal",
             "status": "open",
             "position": "window",

@@ -5,7 +5,6 @@
     "total_columns": 4,
     "columns": {
       "1": {
-        "type": "normal",
         "alignment": [
           {
             "row": 1,
@@ -110,7 +109,6 @@
         ]
       },
       "2": {
-        "type": "normal",
         "alignment": [
           {
             "row": 1,
@@ -216,7 +214,6 @@
       },
       "3": null,
       "4": {
-        "type": "sleeper",
         "alignment": [
           {
             "row": 1,
@@ -288,7 +285,6 @@
     "total_columns": 4,
     "columns": {
       "1": {
-        "type": "sleeper",
         "alignment": [
           {
             "row": 1,
@@ -353,7 +349,6 @@
         ]
       },
       "2": {
-        "type": "sleeper",
         "alignment": [
           {
             "row": 1,
@@ -419,7 +414,6 @@
       },
       "3": null,
       "4": {
-        "type": "sleeper",
         "alignment": [
           {
             "row": 1,

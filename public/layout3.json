@@ -5,8 +5,8 @@
     "total_columns": 4,
     "columns": {
       "1": {
-        "type": "normal",
         "alignment": [
+          { "row": 1, "isActive": false },
           {
             "row": 2,
             "seat_name": "L1",
@@ -100,8 +100,8 @@
         ]
       },
       "2": {
-        "type": "normal",
         "alignment": [
+          { "row": 1, "isActive": false },
           {
             "row": 2,
             "seat_name": "L10",
@@ -195,8 +195,16 @@
         ]
       },
       "3": {
-        "type": "normal",
         "alignment": [
+          { "row": 1, "isActive": false },
+          { "row": 2, "isActive": false },
+          { "row": 3, "isActive": false },
+          { "row": 4, "isActive": false },
+          { "row": 5, "isActive": false },
+          { "row": 6, "isActive": false },
+          { "row": 7, "isActive": false },
+          { "row": 8, "isActive": false },
+          { "row": 9, "isActive": false },
           {
             "row": 10,
             "seat_name": "L19",
@@ -210,7 +218,6 @@
         ]
       },
       "4": {
-        "type": "sleeper",
         "alignment": [
           {
             "row": 1,
@@ -272,7 +279,6 @@
     "total_columns": 4,
     "columns": {
       "1": {
-        "type": "sleeper",
         "alignment": [
           {
             "row": 1,
@@ -327,7 +333,6 @@
         ]
       },
       "2": {
-        "type": "sleeper",
         "alignment": [
           {
             "row": 1,
@@ -383,7 +388,6 @@
       },
       "3": null,
       "4": {
-        "type": "sleeper",
         "alignment": [
           {
             "row": 1,

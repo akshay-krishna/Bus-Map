@@ -6,6 +6,7 @@
     "columns": {
       "1": {
         "alignment": [
+          { "row": 1, "isActive": false },
           {
             "row": 2,
             "seat_name": "L1",
@@ -120,6 +121,7 @@
       },
       "2": {
         "alignment": [
+          { "row": 1, "isActive": false },
           {
             "row": 2,
             "seat_name": "L12",
@@ -234,6 +236,7 @@
       },
       "3": {
         "alignment": [
+          { "row": 1, "isActive": false },
           {
             "row": 2,
             "seat_name": "L23",
@@ -349,6 +352,7 @@
       "4": null,
       "5": {
         "alignment": [
+          { "row": 1, "isActive": false },
           {
             "row": 2,
             "seat_name": "L33",
@@ -359,6 +363,7 @@
             "seat_price": 100.0,
             "isActive": true
           },
+          { "row": 3, "isActive": false },
           {
             "row": 4,
             "seat_name": "L34",
@@ -419,6 +424,7 @@
             "seat_price": 100.0,
             "isActive": true
           },
+          { "row": 10, "isActive": false },
           {
             "row": 11,
             "seat_name": "L40",
@@ -463,6 +469,7 @@
             "seat_price": 100.0,
             "isActive": true
           },
+          { "row": 3, "isActive": false },
           {
             "row": 4,
             "seat_name": "L44",
@@ -523,6 +530,7 @@
             "seat_price": 100.0,
             "isActive": true
           },
+          { "row": 10, "isActive": false },
           {
             "row": 11,
             "seat_name": "L50",
